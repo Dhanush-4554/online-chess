@@ -97,7 +97,7 @@ const Game = () => {
           <Board squares={squares} onClick={(i) => handleClick(i)} />
         </div>
         <div className="PlayerInformation">
-          <h3>Turn</h3>
+          <h3>PLAYER</h3>
           <div id="playerSelectionBox" style={{ backgroundColor: turn }}></div>
           <div className="statusOfGame">{status}</div>
 
