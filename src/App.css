@@ -1,0 +1,104 @@
+/* for all */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* general */
+body {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #dedede;
+}
+
+
+/* cell of board*/
+.cell {
+  background: transparent;
+  border: 2px solid transparent;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 48px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+
+.status {
+  margin-bottom: 10px;
+}
+
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+.square {
+  background: transparent;
+  border: 1px solid transparent;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 48px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+.square:focus {
+  background: #ddd;
+  outline: none;
+
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.PlayerInformation {
+  margin-left: 20px;
+}
+
+
+.statusOfGame, .deadBlock{
+  margin-top: 20px;
+  min-height: 50px;
+}
+
+
+.darkShade{
+background-color: rgb(0, 145, 255);
+}
+
+.lightShade{
+    background-color:rgba(0, 145, 255, 0.211) ;
+}
+
+#playerSelectionBox{
+  width: 40px;
+  height: 40px;
+  border: 3px solid #000;
+  margin-bottom: 10px;
+}
+
+h3{
+  margin-bottom: 5px;
+}
