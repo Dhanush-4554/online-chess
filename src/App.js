@@ -18,7 +18,7 @@ const Game = () => {
 
     if (sourceSelection === -1) {
       if (!updatedSquares[i] || updatedSquares[i].player !== player) {
-        setStatus("Wrong selection. Choose player " + player + " pieces.");
+        setStatus("please choose player " + player + " pieces.");
       }
       else {
         updatedSquares[i].style = {
@@ -31,7 +31,7 @@ const Game = () => {
     }
     else if (sourceSelection > -1) {
       if (updatedSquares[i] && updatedSquares[i].player === player) {
-        setStatus("Wrong selection. Choose valid source and destination again.");
+        setStatus("please choose valid source and destination again.");
         setSourceSelection(-1);
       }
       else {
@@ -73,7 +73,7 @@ const Game = () => {
           setTurn(updatedTurn);
         }
         else {
-          setStatus("Wrong selection. Choose valid source and destination again.");
+          setStatus("please choose valid source and destination again.");
           setSourceSelection(-1);
         }
       }
