@@ -1,1 +1,1 @@
-# (Only Frontend -> Project in progress)
+# (Chess Frontend: Understood logic and Building Game fronends)
