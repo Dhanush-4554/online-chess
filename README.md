@@ -1,1 +1,1 @@
-# (Chess Frontend: Understood logic and Building Game fronends)
+# Chess Frontend: Understood logic and Building Game frontends
